@@ -11,7 +11,8 @@ const Login: React.FC = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/login", {
+      const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+      const res = await fetch(`${API_BASE_URL}/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
