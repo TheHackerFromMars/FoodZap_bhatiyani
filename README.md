@@ -75,6 +75,12 @@ npm start
 - **Backend API**: http://localhost:8000
 - **API Health**: http://localhost:8000/health
 
+
+### 🔐 **Login Credentials**
+To access the dashboard, use the following sample credentials:
+Email: sample@gmail.com  
+Password: FoodZap123
+
 ---
 
 ## 🌐 **Live Deployment**
